@@ -1,5 +1,6 @@
 {
     "name": "lær micro:bit -  NeoPixel LED",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
