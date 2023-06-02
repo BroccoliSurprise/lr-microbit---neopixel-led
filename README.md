@@ -1,6 +1,13 @@
 #  Lær micro:bit - NeoPixel LED
 
-## Steg 1 
+## Steg 0 @showdialog
+Denne blokken forteller micro:biten at det er 64 NeoPixel-lys koblet til på Pin 8 (Den blå ledningen)
+```blocks
+let strip = neopixel.create(DigitalPin.P8, 64, NeoPixelMode.RGB)
+```
+
+
+## Steg 1 - Test
 
 Last ned dette programmet til micro:biten og se hva som skjer med LED-lyslenken
 
@@ -15,13 +22,8 @@ basic.forever(function () {
 })
 ```
 
-## Steg 2 @showdialog
-Denne blokken forteller micro:biten at vi har koblet til 64 NeoPixel-lys på Pin 8 (Den blå ledningen)
-```blocks
-let strip = neopixel.create(DigitalPin.P8, 64, NeoPixelMode.RGB)
-```
-
-
+## Steg 2 - Lek
+Prøv å lage dine egne fine fargemønster. Klarer du å lage en regnbue som beveger seg?
 
 
 ```ghost
